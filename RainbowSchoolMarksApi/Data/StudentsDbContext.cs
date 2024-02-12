@@ -24,16 +24,16 @@ namespace RainbowSchoolMarksApi.Data
 
             // Seed Students
             modelBuilder.Entity<Student>().HasData(
-                new Student { Id = 1, Name = "Alice Johnson", Email = "alice.johnson@example.com" },
-                new Student { Id = 2, Name = "Bob Smith", Email = "bob.smith@example.com"},
-                new Student { Id = 3, Name = "Carol Taylor", Email = "carol.taylor@example.com"}
+                new Student { Id = 1, Name = "SaiPreetham", Email = "sai.preetham@example.com" },
+                new Student { Id = 2, Name = "YamaDheeraj", Email = "yama.dheeraj@example.com"},
+                new Student { Id = 3, Name = "VamshiKrishna", Email = "vamshi.Krishna@example.com"}
                 // Add 9 more students
             );
 
             // Seed Subjects
             modelBuilder.Entity<Subject>().HasData(
                 new Subject { Id = 1, Name = "Mathematics", Credits = 4 },
-                new Subject { Id = 2, Name = "English Literature", Credits = 3 },
+                new Subject { Id = 2, Name = "Social", Credits = 3 },
                 new Subject { Id = 3, Name = "Physics", Credits = 4 }
                 // Add 9 more subjects
             );
